@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Motion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Elite Motion</h1>
+        <p>Discover our premium sportswear collection.</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+
+    <section id="shop">
+        <h2>Shop Our Collection</h2>
+        <div class="product-grid">
+            <!-- Add your product items here -->
+            <div class="product-item">
+                <img src="your-product-image.jpg" alt="Product Name">
+                <h3>Product Name</h3>
+                <p>$100</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Elite Motion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
